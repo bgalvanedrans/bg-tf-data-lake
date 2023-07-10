@@ -6,7 +6,7 @@ resource "aws_athena_workgroup" "bg-tf-workgroup" {
     publish_cloudwatch_metrics_enabled = true
 
     result_configuration {
-      output_location = "s3://bg-tf-raw-db/queries/"
+      output_location = "s3://bg-tf-athena-queries/"
     }
   }
 }
