@@ -37,6 +37,13 @@ resource "aws_s3_object" "raw_folder" {
     key    = "raw/"
 }
 
+#Create queries/ folder
+resource "aws_s3_object" "queries_folder" {
+    bucket = aws_s3_bucket.bg_tf_raw_db.id
+    acl    = "private"
+    key    = "queries/"
+}
+
 
 
 # Create staging S3 bucket
