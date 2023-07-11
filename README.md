@@ -38,3 +38,5 @@ aws glue start-workflow-run --name bg-tf-glue-workflow
 
 ![img](https://raw.githubusercontent.com/bgalvanedrans/bg-tf-data-lake/main/pictures/Captura%20de%20pantalla%20de%202023-07-10%2015-52-25.png)
 
+## Contact
+
