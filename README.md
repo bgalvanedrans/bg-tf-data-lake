@@ -21,4 +21,6 @@ We need to create bg_tf_iam_glue_role role with glue service role and full acces
 ## Data Lake Creation
 ### Input
 
-Input was resolved by using Kinesis Data Generator and Stream Kinesis Firehose both already existing as one of the 
+Input was resolved by using Kinesis Data Generator and Stream Kinesis Firehose both already existing as one of the many ways to input data over bg-tf-raw/raw/ bucket.
+
+
