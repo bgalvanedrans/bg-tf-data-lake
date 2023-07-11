@@ -2,7 +2,7 @@
 
 Full documentation where I explain my journey solving this task asked in my onboarding **Let's start!**
 
-![img](https://handbook.edrans.com/assets/img/DiagramasArquitecturaServerlessDataLake_II.82d78f8f.jpg)
+![img](https://raw.githubusercontent.com/bgalvanedrans/bg-tf-data-lake/main/pictures/Captura%20de%20pantalla%20de%202023-07-11%2011-45-52.png)
 
 ## Prerequisites
 ### Providers
@@ -32,4 +32,6 @@ Job bg-tf-glue-job-raw-to-staging is taking data from bg-tf-raw/raw/ bucket and 
 Workflow created to automatically run both jobs (raw to staging & staging to consume) with next command:
 
 aws glue start-workflow-run --name bg-tf-glue-workflow
+
+![img](https://raw.githubusercontent.com/bgalvanedrans/bg-tf-data-lake/main/pictures/Captura%20de%20pantalla%20de%202023-07-10%2015-52-25.png)
 
