@@ -23,4 +23,9 @@ We need to create bg_tf_iam_glue_role role with glue service role and full acces
 
 Input was resolved by using Kinesis Data Generator and Stream Kinesis Firehose both already existing as one of the many ways to input data over bg-tf-raw/raw/ bucket.
 
+### Glue Workflow (Added to the onboarding)
+
+Workflow created to automatically run both jobs (raw to staging & staging to consume) with next command:
+
+aws glue start-workflow-run --name bg-tf-glue-workflow
 
