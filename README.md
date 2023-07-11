@@ -17,6 +17,9 @@ Region us-east-1 and terraform version 5.6.2 were defined over this .tf file.
 
 We need to create bg_tf_iam_glue_role role with glue service role and full access (GetObject, PutObject, ListBucket, DeleteObject, GetEncryptionConfiguration, GetBucketRequestPayment, GetBucketLocation) to all our buckets.
 
+### Glue DB's
+
+DB's were defined for each env and privileges.
 
 ## Data Lake Creation
 ### Input
