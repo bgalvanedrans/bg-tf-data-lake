@@ -23,6 +23,10 @@ We need to create bg_tf_iam_glue_role role with glue service role and full acces
 
 Input was resolved by using Kinesis Data Generator and Stream Kinesis Firehose both already existing as one of the many ways to input data over bg-tf-raw/raw/ bucket.
 
+## Glue Jobs
+
+Job bg-tf-glue-job-raw-to-staging is taking data from bg-tf-raw/raw/ bucket and applies an schema change leaving affected data in bg-tf-staging/compressed-parquet/ bucket. Job bg-tf-glue-job-staging-to-consume has same process moving data from bg-tf-staging/compressed-parquet/ bucket to bg-tf-consume/compressed-parquet/ bucket.
+
 ### Glue Workflow (Added to the onboarding)
 
 Workflow created to automatically run both jobs (raw to staging & staging to consume) with next command:
