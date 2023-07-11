@@ -1,6 +1,6 @@
 # Onboarding bg-tf-data-lake
 
-Full documentation where I explain my journey debulking this onboarding **Let's start!**
+Full documentation where I explain my journey solving this task asked in my onboarding **Let's start!**
 
 ![img](https://handbook.edrans.com/assets/img/DiagramasArquitecturaServerlessDataLake_II.82d78f8f.jpg)
 
