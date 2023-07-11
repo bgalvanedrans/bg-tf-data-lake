@@ -4,6 +4,7 @@ Full documentation where I explain my journey solving this task asked in my onbo
 
 ![img](https://handbook.edrans.com/assets/img/DiagramasArquitecturaServerlessDataLake_II.82d78f8f.jpg)
 
+## Prerequisites
 ### Providers
 
 Region us-east-1 and terraform version 5.6.2 were defined over this .tf file.
@@ -17,7 +18,7 @@ Region us-east-1 and terraform version 5.6.2 were defined over this .tf file.
 We need to create bg_tf_iam_glue_role role with glue service role and full access (GetObject, PutObject, ListBucket, DeleteObject, GetEncryptionConfiguration, GetBucketRequestPayment, GetBucketLocation) to all our buckets.
 
 
-
+## Data Lake Creation
 ### Input
 
 Input was resolved by using Kinesis Data Generator and Stream Kinesis Firehose both already existing as one of the 
